@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carrossel{
+    width: 90px;
+    display: block;
+    margin: auto;
+}
+
+.texto-nossahistoria{
+    font-size: 14px;
+    margin: 0px 30px 0px 120px;
+    text-align: justify;
+}
+
+.apresentajoinville{
+    font-size: 14px;
+    margin: 0px 80px 0px 40px;
+    text-align: justify;
+}
+
+.section02{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 0px 200px 0px;
+}
+
+.foto-museuimigracao{
+    width: 600px;
+    margin: 80px 0px 0px 60px;
+}
+
+.section03{
+    margin: -150px 0px 200px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.linha-superior, linha-inferior{
+    display: flex;
+    flex-direction: row;
+}
+
+.nossahistoria-section02{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.fotoantiga{
+    width: 400px;
+    margin: 120px 100px 50px 60px;
+}
+
+.nossahistoria-titulo{
+    margin: 0px 0px 30px 200px;
+}
+
+.geografia-titulo, .clima-titulo, .economia-titulo{
+    margin: 50px 0px 0px 200px;
+}
+
+.geografia, .clima, .economia{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.geografia-foto, .clima-foto{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.geografia-texto, .clima-texto{
+    margin: 20px 100px 0px 50px;
+    text-align: justify;
+}
+
+.economia-foto{
+    width: 500px;
+    height: 300px;
+    margin: 50px 0px 0px 100px;
+}
+
+.economia-texto{
+    margin: 0px 100px 0px 50px;
+    text-align: justify;
+}
+
+.pontosturisticos{
+    display: flex;
+    flex-direction: row;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+
+.pontosturisticos-foto{
+    width: 400px;
+}
+
+.pontosturisticos-texto{
+    margin: 30px 100px 0px 50px;
+    text-align: justify;
+}
+
+.section04{
+    width: 1000px;
+    margin: 0px 0px 300px 190px;
+}
+
+.conteudo-pontosturisticos{
+    display: flex;
+    flex-direction: row;
+}
+
+    @media screen and (max-device-width: 375px) {
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container{
+            margin-top: -28px;
+        }
+        
+        .apresentajoinville{
+            font-size: 14px;
+            margin: 0px 30px 30px 30px;
+        }
+        
+        .section02{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: -160px;
+        }
+        
+        .foto-museuimigracao{
+            width: 300px;
+            margin: auto;
+            display: block;
+        }
+        
+        .section03{
+            display: flex;
+            flex-direction: column;
+            margin: -150px 0px 10px 0px;;
+        }
+        
+        .linha-superior, linha-inferior{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nossahistoria-section02{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .nossahistoria-titulo{
+            text-align: center;
+            margin: -10px 10px 30px 10px;
+        }
+
+        .texto-nossahistoria{
+            margin: 10px 30px;
+            font-size: 14px;
+            text-align: center justify;
+        }
+        
+        .fotoantiga{
+            width: 300px;
+            margin: auto;
+            display: block;
+            margin-bottom: 25px;
+        }
+
+        .cardcompleto{
+            width: 300px;
+            margin-left: 35px;
+        }
+        
+        .geografia-titulo, .clima-titulo, .economia-titulo{
+            text-align: center;
+            margin: 25px;
+        }
+        
+        .geografia, .clima, .economia{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .geografia-foto, .clima-foto{
+            display: block;
+            margin: auto;
+            width: 300px;
+        }
+        
+        .geografia-texto, .clima-texto{
+            margin: 30px 30px 50px 30px;
+            text-align: justify, center;
+        }
+        
+        .economia-foto{
+            width: 300px;
+            display: block;
+            margin: auto;
+        }
+        
+        .economia-texto{
+            margin: 30px 30px 50px 30px;
+            text-align: justify, center;
+        }
+        
+        .pontosturisticos{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .section1{
+            display: flex;
+            flex-direction: column;
+            margin-left: -238px;
+        }
+        
+        .pontosturisticos-foto{
+            width: 350px;
+            height: 250px;
+            margin-top: -40px;
+        }
+        
+        .pontosturisticos-texto{
+            margin: 30px 25px 0px 15px;
+            text-align: justify;
+        }
+
+        .section04{
+            width: 275px;
+            margin: 0px 0px 100px 50px;
+        }
+
+        .menu-pontosturisticos{
+            display: none;
+        }
+
+        .conteudo-pontosturisticos{
+            display: flex;
+            flex-direction: column;
+        }
+    }
